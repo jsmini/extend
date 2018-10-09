@@ -1,11 +1,11 @@
-# [base](https://github.com/jsmini/base) 
+# [extend](https://github.com/jsmini/extend) 
 
-[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/base/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/jsmini/base.svg?branch=master)](https://travis-ci.org/jsmini/base)
-[![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/base)
-[![NPM downloads](http://img.shields.io/npm/dm/@jsmini/base.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/base)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/base.svg)](http://isitmaintained.com/project/jsmini/base "Percentage of issues still open")
+[![](https://img.shields.io/badge/Powered%20by-jslib%20extend-brightgreen.svg)](https://github.com/yanhaijing/jslib-extend)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/extend/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/jsmini/extend.svg?branch=master)](https://travis-ci.org/jsmini/extend)
+[![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/extend)
+[![NPM downloads](http://img.shields.io/npm/dm/@jsmini/extend.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/extend)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/extend.svg)](http://isitmaintained.com/project/jsmini/extend "Percentage of issues still open")
 
 最好用的js第三方库脚手架，fork或clone本仓库，即可搭建完成一个新库的基础框架
 
@@ -52,41 +52,41 @@
 通过npm下载安装代码
 
 ```bash
-$ npm install --save @jsmini/base
+$ npm install --save @jsmini/extend
 ```
 
 如果你是node环境
 
 ```js
-var name = require('@jsmini/base').name;
+var name = require('@jsmini/extend').name;
 ```
 
 如果你是webpack等环境
 
 ```js
-import { name } from '@jsmini/base';
+import { name } from '@jsmini/extend';
 ```
 
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/@jsmini/base/dist/index.aio.js'], function (jsmini_base) {
-    var name = jsmini_base.name;
+requirejs(['node_modules/@jsmini/extend/dist/index.aio.js'], function (jsmini_extend) {
+    var name = jsmini_extend.name;
 })
 ```
 
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/@jsmini/base/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/extend/dist/index.aio.js"></script>
 
 <script>
-    var name = jsmini_base.name;
+    var name = jsmini_extend.name;
 </script>
 ```
 
 ## 文档
-[API](https://github.com/jsmini/base/blob/master/doc/api.md)
+[API](https://github.com/jsmini/extend/blob/master/doc/api.md)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -131,13 +131,13 @@ $ npm run rename # 重命名命令
 ```
 
 ## 贡献者列表
-[contributors](https://github.com/jsmini/base/graphs/contributors)
+[contributors](https://github.com/jsmini/extend/graphs/contributors)
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/jsmini/base/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/extend/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/jsmini/base/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/extend/blob/master/TODO.md)
 
 ## 谁在使用
 
