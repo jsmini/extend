@@ -3,28 +3,11 @@
 [![](https://img.shields.io/badge/Powered%20by-jslib%20extend-brightgreen.svg)](https://github.com/yanhaijing/jslib-extend)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/extend/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/jsmini/extend.svg?branch=master)](https://travis-ci.org/jsmini/extend)
-[![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/extend)
+[![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/@jsmini/extend)
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/extend.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/extend)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/extend.svg)](http://isitmaintained.com/project/jsmini/extend "Percentage of issues still open")
 
-最好用的js第三方库脚手架，fork或clone本仓库，即可搭建完成一个新库的基础框架
-
-## 特性
-
-- ES6编写源码，编译生成生产代码
-- 集成 babel-runtime (默认关闭)
-- 第三方依赖自动注入（自动剔除第三方依赖无用代码tree shaking）
-- 多环境支持（支持浏览器原生，支持AMD，CMD，支持Webpack，Rollup，fis等，支持Node）
-- 集成单元测试环境
-- 集成代码风格校验eslint
-- 集成可持续构建工具[travis-ci](https://www.travis-ci.org/)
-- 支持自定义banner
-- 集成[jsmini](https://github.com/jsmini)
-- 集成ISSUE_TEMPLATE
-- 支持[sideEffects](https://juejin.im/post/5b4ff9ece51d45190c18bb65)
-- 支持一键重命名
-
-**注意:** 如果不同时使用 export 与 export default 可打开legacy模式，legacy模式下的模块系统可以兼容ie6-8，见rollup配置文件
+将对象属性递归放到目标对象，类似jQuery的`$.extend`
 
 ## 兼容性
 单元测试保证支持如下环境：
@@ -140,10 +123,3 @@ $ npm run rename # 重命名命令
 [TODO.md](https://github.com/jsmini/extend/blob/master/TODO.md)
 
 ## 谁在使用
-
-- [type](https://github.com/jsmini/type)
-- [is](https://github.com/jsmini/is)
-- [guid](https://github.com/jsmini/guid)
-- [inherits](https://github.com/jsmini/inherits)
-- [event](https://github.com/jsmini/event)
-- [console](https://github.com/jsmini/console)
