@@ -1,11 +1,11 @@
-@import { isBoolean, isObject, isArray } from '@jsmini/is';
+import { isObject, isArray, isFunction } from '@jsmini/is';
 
 // Object.create(null) 的对象，没有hasOwnProperty方法
 function hasOwnProp(obj, key) {
     return Object.prototype.hasOwnProperty.call(obj, key);
 }
 
-export function assign(target, ...sourceList) {
+export const assign = isFunction(Object.assign) ? Object.assign : function assign(target, ...sourceList) {
     if (!isObject(target)) {
         throw new TypeError('assign first param must is object');
     }
@@ -23,7 +23,7 @@ export function assign(target, ...sourceList) {
     }
 
     return target;
-}
+};
 
 export function extend(deep, target, ...sourceList) {
     if (isObject(deep)) {
