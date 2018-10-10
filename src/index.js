@@ -41,7 +41,7 @@ export function extend(deep, target, ...sourceList) {
     }
 
     // 深拷贝
-    if (!isObject(target)) {
+    if (!isObject(target) && !isArray(target)) {
         throw new TypeError('extend target param must is object');
     }
 
