@@ -25,21 +25,11 @@ export const assign = isFunction(Object.assign) ? Object.assign : function assig
     return target;
 };
 
-export function extend(deep, target, ...sourceList) {
-    if (isObject(deep)) {
-        deep = false;
-        sourceList.unshift(target);
-        target = deep;
-    } else {
-        deep = !!deep;
-    }
+export function extend(...args) {
+    return assign(...args);
+}
 
-
-    // 浅拷贝
-    if (!deep) {
-        return assign(target, ...sourceList);
-    }
-
+export function extendDeep(target, ...sourceList) {
     // 深拷贝
     if (!isObject(target) && !isArray(target)) {
         throw new TypeError('extend target param must is object');

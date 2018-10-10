@@ -19,11 +19,15 @@ assign({}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
 ```
 
 ## extend
-将源对象属性进行浅拷贝或深拷贝，合并到目标对象，类似jQuery的`$.extend`
+将源对象属性进行浅拷贝，合并到目标对象，类似jQuery的`$.extend(false)`
+
+其实际为assign的别名
+
+## extendDeep
+将源对象属性进行深拷贝，合并到目标对象，类似jQuery的`$.extend(true)`
 
 函数参数和返回值（要遵守下面的例子的规则）
 
-- param {boolean} deep 是否进行递归赋值，如果为false或不传都为浅赋值，传true为深度递归赋值
 - param {object} target 目标对象
 - param {object} [...source] 源原对象
 - return {object} target对象
@@ -31,10 +35,7 @@ assign({}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
 举个例子（要包含代码用例）
 
 ```js
-// 浅赋值
-extend({}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
-extend(false, {}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
-
-// 深度递归赋值
-extend(true, {}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
+extendDeep({}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
+extendDeep(false, {}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
+extendDeep({}, {a: 1}, {a: 2, b: 1}) // {a: 2, b: 1}
 ```

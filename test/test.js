@@ -2,6 +2,7 @@ var expect = require('expect.js');
 
 var assign = require('../dist/index.js').assign;
 var extend = require('../dist/index.js').extend;
+var extendDeep = require('../dist/index.js').extendDeep;
 
 describe('单元测试', function() {
     this.timeout(1000);
@@ -19,7 +20,7 @@ describe('单元测试', function() {
         });
     });
 
-    describe('extend:shallow', function() {
+    describe('extend', function() {
         it('常规', function() {
             // 缺省参数
             var h = extend({}, a, b);
@@ -27,19 +28,12 @@ describe('单元测试', function() {
             expect(h.a).to.equal(b.a);
             expect(h.b1).to.equal(b.b1);
             expect(h.b2).to.equal(b.b2);
-
-            // 显示参数
-            var h = extend(false, {}, a, b);
-
-            expect(h.a).to.equal(b.a);
-            expect(h.b1).to.equal(b.b1);
-            expect(h.b2).to.equal(b.b2);
         });
     });
 
-    describe('extend:deep', function() {
+    describe('extendDeep', function() {
         it('常规', function() {
-            var h = extend(true, {}, a, b);
+            var h = extendDeep({}, a, b);
 
             expect(h.a).to.equal(b.a);
             expect(h.b1).to.equal(b.b1);
