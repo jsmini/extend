@@ -59,7 +59,7 @@ export function extendDeep(target, ...sourceList) {
                 } else {
                     clone = src && isObject(src) ? src : {};
                 }
-                target[name] = extend(true, clone, copy);
+                target[name] = extendDeep(clone, copy);
             } else if (typeof copy !== 'undefined'){
                 target[name] = copy;
             }
