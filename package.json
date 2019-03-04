@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/extend",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "将对象属性递归放到目标对象，类似jQuery的`$.extend`",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
@@ -42,7 +42,7 @@
     "rollup-plugin-node-resolve": "3.0.3"
   },
   "dependencies": {
-    "@jsmini/is": "0.7.1",
+    "@jsmini/is": "^0.8.1",
     "babel-runtime": "6.26.0"
   }
 }
