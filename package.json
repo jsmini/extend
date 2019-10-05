@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/extend",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "将对象属性递归放到目标对象，类似jQuery的`$.extend`",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
