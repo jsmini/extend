@@ -1,8 +1,8 @@
 var expect = require('expect.js');
 
-var assign = require('../dist/index.js').assign;
-var extend = require('../dist/index.js').extend;
-var extendDeep = require('../dist/index.js').extendDeep;
+var assign = require('../src/index.js').assign;
+var extend = require('../src/index.js').extend;
+var extendDeep = require('../src/index.js').extendDeep;
 
 describe('单元测试', function() {
     this.timeout(1000);

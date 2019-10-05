@@ -1,8 +1,8 @@
 # [extend](https://github.com/jsmini/extend) 
-
 [![](https://img.shields.io/badge/Powered%20by-jslib%20extend-brightgreen.svg)](https://github.com/yanhaijing/jslib-extend)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/extend/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/jsmini/extend.svg?branch=master)](https://travis-ci.org/jsmini/extend)
+[![Coveralls](https://img.shields.io/coveralls/jsmini/extend.svg)](https://coveralls.io/github/jsmini/extend)
 [![npm](https://img.shields.io/badge/npm-0.3.1-orange.svg)](https://www.npmjs.com/package/@jsmini/extend)
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/extend.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/extend)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/extend.svg)](http://isitmaintained.com/project/jsmini/extend "Percentage of issues still open")
