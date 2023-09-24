@@ -7,7 +7,7 @@
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/extend.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/extend)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/extend.svg)](http://isitmaintained.com/project/jsmini/extend 'Percentage of issues still open')
 
-Recursively assign object properties to the target object, similar to jQuery's $.extend..
+Recursively assign object properties to the target object, similar to jQuery's $.extend.
 
 English | [简体中文](./README-zh_CN.md)
 
