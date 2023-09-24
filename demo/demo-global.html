@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script src="../node_modules/es5-shim/es5-shim.js"></script>
     <script src="../node_modules/es5-shim/es5-sham.js"></script>
-    
+
     <script src="../dist/index.aio.js"></script>
     <script>
-        var b = {a: 2, b1: 1, b2: {c1: 1}, b3: [1]}
+      var b = { a: 2, b1: 1, b2: { c1: 1 }, b3: [1] };
 
-        console.log(jsmini_extend.extendDeep({}, b));
+      console.log(jsmini_extend.extendDeep({}, b));
     </script>
-</body>
+  </body>
 </html>
