@@ -1,7 +1,7 @@
 {
   "name": "@jsmini/extend",
-  "version": "0.3.3",
-  "description": "将对象属性递归放到目标对象，类似jQuery的`$.extend`",
+  "version": "0.4.0",
+  "description": "Recursively assign object properties to the target object, similar to jQuery's $.extend.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "sideEffects": false,

@@ -3,13 +3,11 @@
 [![](https://img.shields.io/badge/Powered%20by-jslib%20extend-brightgreen.svg)](https://github.com/yanhaijing/jslib-extend)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/extend/blob/master/LICENSE)
 [![CI](https://github.com/jsmini/extend/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jsmini/extend/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/badge/npm-0.3.3-orange.svg)](https://www.npmjs.com/package/@jsmini/extend)
+[![npm](https://img.shields.io/badge/npm-0.4.0-orange.svg)](https://www.npmjs.com/package/@jsmini/extend)
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/extend.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/extend)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/extend.svg)](http://isitmaintained.com/project/jsmini/extend 'Percentage of issues still open')
 
-A method like `$.extend` of Jquery. Merge Objects attributes to target object
-
-将对象属性递归放到目标对象，类似jQuery的`$.extend`
+Recursively assign object properties to the target object, similar to jQuery's $.extend..
 
 English | [简体中文](./README-zh_CN.md)
 
